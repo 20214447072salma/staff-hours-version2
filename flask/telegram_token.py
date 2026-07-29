@@ -1,0 +1,2 @@
+# Telegram Bot Token
+TOKEN = "7731581469:AAFHs5aHAeKXseZvC7az2ONxT3LnJZ8AS4s"
