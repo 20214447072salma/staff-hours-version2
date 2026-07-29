@@ -1,0 +1,4 @@
+AWS_PROFILE="default"
+AWS_REGION="us-east-1"
+DEFANG_PROVIDER="aws"
+DEFANG_RECIPE="affordable"
