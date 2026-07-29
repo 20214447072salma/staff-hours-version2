@@ -1,0 +1,17 @@
+services:
+  flask:
+    restart: unless-stopped
+    build:
+      context: ./flask
+      dockerfile: Dockerfile
+    deploy:
+      resources:
+        reservations:
+          cpus: "1.0"
+          memory: 512M
+    ports:
+      - mode: ingress
+        target: 5001
+        published: 5001
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import sys, urllib.request; urllib.request.urlopen(sys.argv[1]).read()", "http://localhost:5001/"]
