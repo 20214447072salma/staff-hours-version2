@@ -1,0 +1,11 @@
+Flask==2.2.5
+Werkzeug==2.2.2
+MarkupSafe==2.1.1
+apscheduler==3.10.1
+python-telegram-bot==20.3
+mysql-connector-python==8.1.0
+flask-cors==4.0.0
+python-dateutil==2.8.2
+sqlalchemy==2.0.23
+telethon==1.29.2
+PyMySQL==1.1.0
